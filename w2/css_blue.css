@@ -1,18 +1,17 @@
+/* this css uses blue for most stuff */
 h1 {
-    color: #0000aa;
-    text-align: center;
-    letter-spacing: 10px;
-#    text-decoration: blink;
-    font-size: 600%;
+	color: blue;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 600%;
 }
 
 img {
-    border: 5px inset #0000aa;
-    display: block;
-    -moz-transform: rotate(30deg);
+	border: 5px inset darkblue;
+	display: block;
 }
 
 body {
-    background-color: #66ccff;
+	background-color: lavender;
 }
 

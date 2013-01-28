@@ -1,4 +1,8 @@
-
+var strings=[
+	"Louisiana, Baton Rouge",
+	"Georgia, Atlanta",
+	"Florida, Tallahassee"
+];
 (function() {
   var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
                               window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
@@ -8,7 +12,7 @@
 
 var ctx,canvas;
 var y=0;
-var s1="", s2="Louisiana-Baton Rouge"
+var s1="", s2="Louisiana,Baton Rouge"
 
 function drawStrings(ctx,x,y, s1, s2)
 {
@@ -49,9 +53,9 @@ function draw()
 function keyPressed(event)
 {
     c=String.fromCharCode(event.keyCode);
-    console.log(c+" " +event.keyCode);
+    console.log(c+" " +event.keyCode +"  "+event.charCode + " .. "+event.which);
    
-    if(c==s2[0].toUpperCase() || (event.keyCode==189 && s2[0]=='-')) {
+    if(c==s2[0].toUpperCase() || (event.keyCode==188 && s2[0]==',')) {
         s1+=s2[0];
         s2=s2.substr(1);
         draw();
