@@ -1,0 +1,18 @@
+h1 {
+    color: #0000aa;
+    text-align: center;
+    letter-spacing: 10px;
+#    text-decoration: blink;
+    font-size: 600%;
+}
+
+img {
+    border: 5px inset #0000aa;
+    display: block;
+    -moz-transform: rotate(30deg);
+}
+
+body {
+    background-color: #66ccff;
+}
+
