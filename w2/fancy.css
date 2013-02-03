@@ -18,6 +18,11 @@ body {
 
 
 p.fancy {
-	color: black;
-	background: url('../media/platypus.png') repeat 0 10%;	
+    color: pink;
+    background: url('../media/heart.png');
+    height: 80px;
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
