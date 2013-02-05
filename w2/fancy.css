@@ -26,3 +26,12 @@ p.fancy {
     font-weight: bold;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+p.pretty {
+	padding: 30px;
+	background-color: #00a030;
+	border: 10px inset #ff00ff;
+	margin: 20px;
+	font-weight: bold;
+	text-align: center;
+}
